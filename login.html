@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<div class="login-system-complete">
+	<div class="login-system-form-layout">
+		<div id="login-system-heading">
+			FFX LOGIN
+		</div>
+		<div id="login-system-heading-message">
+			Sign in to view account and download invoice.
+		</div>
+		<div class="login-system-input-wrapper">
+			<div class="login-system-userinput">
+				<form method="POST" action="" id="login-system-form">
+
+					<div class="login-system-symbol" id="login-system-symbol-user">&#x1F464</div>
+					<div class="login-system-symbol" id="login-system-symbol-unlock">&#x1F513</div> <br>
+
+					<input class="login-main-inputs login-main-inputs-text" type="email" name="email" placeholder="email" id="login-system-username" size="27" spellcheck="false"> <br>
+					<input class="login-main-inputs login-main-inputs-text" type="password" name="pwd" placeholder="password" id="login-system-pwd" size="27" spellcheck="false"> <br>
+					<div class="login-system-lower-element">
+						<input type="checkbox" name="password-remember" id="password-remember" value="rem">
+						<span id="login-system-remember">Remember me</span>
+						<span id="login-system-forgot">Forgot Password?</span>
+					</div>
+					<input class="login-main-inputs" type="submit" value="LOGIN" id="login-system-button">
+				</form>
+			</div>
+
+			<div class="login-system-social">
+				<g:plusone></g:plusone>
+				<div id="login-system-social-google">
+					<input name="provider" value="Google" type="image" src="C:\Users\Arjun.Prasad\Downloads\New folder\google_signin_buttons\web\vector\btn_google_light_normal_ios.svg" alt="Google Login" class="social-network-logo" disabled="disabled" width="24" height="24" />Sign In with Google
+				</div>
+
+				<div id="login-system-social-facebook">
+					<input name="provider" value="Facebook" type="image" src="C:\Users\Arjun.Prasad\Downloads\New folder\F_Logo_Online_04_2018\Color\SVG\flogo_RGB_HEX-1024.svg" alt="Facebook Login" class="social-network-logo" disabled="disabled" width="12" height="12" />Sign In with facebook
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>

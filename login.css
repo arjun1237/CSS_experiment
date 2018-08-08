@@ -1,0 +1,178 @@
+.login-system-complete{
+	background-color: white;
+	padding: 20px;
+	font-family: sans-serif;
+	color: #c4edea;
+}
+
+.login-system-form-layout{
+	width: fit-content;
+	margin: 0 auto;
+}
+
+#login-system-heading{
+	background-color: #ff7a1c;
+	color: white;
+	text-align: center;
+	padding: 35px 120px 20px 120px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-size: 27px;
+	letter-spacing: 5px;
+	border-radius: 20px 20px 0 0;
+}
+
+.login-system-userinput{
+	padding: 0 10px 10px 10px;
+	width: fit-content;
+	margin: auto;
+}
+
+.login-system-userinput div:last-child{
+	display: inline-block;
+}
+
+.login-system-input-wrapper{
+    /*background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
+    background-color: #0fb8ad;
+    border-radius: 0 0 20px 20px;
+}
+
+.login-main-inputs:focus::-webkit-input-placeholder { color:transparent; }
+.login-main-inputs:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+.login-main-inputs:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+.login-main-inputs:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+.login-main-inputs-text{
+	background: none;
+	padding: 16px;
+	padding-left: 50px;
+	border: none;
+    border-bottom: 1px solid #7bd1cb;
+	outline: none;
+	font-size: 17px;
+	color: white;
+}
+
+.login-main-inputs-text:focus{
+	background-color: #07423e;
+}
+
+.login-main-inputs-text:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #07423e inset;
+}
+
+.login-main-inputs-text:-webkit-autofill {
+    -webkit-text-fill-color: white !important;
+}
+
+.login-main-inputs-text::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  	color: #c4edea;
+  	font-size: 17px;
+}
+.login-main-inputs-text::-moz-placeholder { /* Firefox 19+ */
+  	color: #c4edea;
+  	font-size: 17px;
+}
+.login-main-inputs-text:-ms-input-placeholder { /* IE 10+ */
+  	color: #c4edea;
+  	font-size: 17px;
+}
+.login-main-inputs-text:-moz-placeholder { /* Firefox 18- */
+  	color: #c4edea;
+  	font-size: 17px;
+}
+
+#login-system-button{
+	width: 170px;
+	margin: 40px 0 0;
+	width: 100%;
+}
+
+.login-system-symbol{
+	position: relative;
+	width: fit-content;
+	color: #c4edea;
+	font-size: 20px;
+	top: 42px;
+	padding: 3.9px;
+	display: inline-block;
+	left: 5px;
+}
+
+#login-system-symbol-unlock{
+	top: 124px;
+	left: -27px;
+}
+
+#login-system-button{
+	background-color: #bef7f4;
+	border: none;
+	padding: 15px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+ 	font-weight: 600;
+    color: #0fb8ad;
+	letter-spacing: 2px; 
+}
+
+#login-system-forgot{
+	float: right;
+	font-style: italic;
+}
+
+#login-system-remember{
+	position: relative;
+    top: -2px;
+	margin-left: 2px;
+}
+
+#login-system-form span{
+	font-size: 12px;
+}
+
+.login-system-lower-element{
+	font-size: 12px;
+	margin-top: 20px;
+    margin-right: 5px;
+}
+
+#password-remember{
+	position: relative;
+    margin: 0;
+}
+
+#login-system-username{
+	margin-bottom: 30px;
+}
+
+#login-system-heading-message{
+    background-color: #0fb8ad;
+	color: #c4edea;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+.login-system-social > div{
+	display: inline-block;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 5px;
+	font-size: 12px;	
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.login-system-social > div:hover{	
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-system-social{
+	text-align: center;
+}
+
+#login-system-social-facebook{
+	background-color: #3b5998;
+	color: white;
+}
